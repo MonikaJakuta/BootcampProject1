@@ -29,8 +29,7 @@ contract HelloWorld {
     }
 
     function _restore() internal {
-        text = initialText(); //This internal function resets the text variable back to its original value 
-by calling the initialText() function. It is used to encapsulate the logic for restoring the text.
+        text = initialText(); //This internal function resets the text variable back to its original value by calling the initialText() function. It is used to encapsulate the logic for restoring the text.
     }
     
     function restore() public returns (bool) {
